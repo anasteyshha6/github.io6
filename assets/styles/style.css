@@ -1,0 +1,338 @@
+@import url(./font.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+body{
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* самое основное! */
+
+.section{
+    background-color: #141414;
+}
+
+.container_big{
+    width: 1366px;
+    margin: 0 auto;
+    padding: 0 0 100px 0;
+}
+
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.logo{
+    width: 6%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.text_nav{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text_nav a{
+    font-family: 'Gol';
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    transition: 0.2s;
+}
+
+.text_nav a:hover{
+    color: #6fb1fc;
+    transition: 0.2s;
+}
+
+.icons_text{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons_text a{
+    font-family: 'Gol';
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+}
+
+.icons_text a:hover{
+    color: #ea8b37;
+    transition: 0.2s;
+}
+
+.container_img{
+    height: 600px;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 75px;
+    padding-top: 250px;
+    
+}
+
+.zagolovok{
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.zagolovok h2{
+    font-family: 'Gol';
+    font-weight: 700;
+    font-size: 3.125rem;
+    color: white;
+}
+
+.reiting{
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.b p{
+    font-family: 'Gol';
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+}
+
+.opisanie_small{
+    font-family: 'Gol';
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #909090;
+}
+
+.b2 p{
+    font-family: 'Gol';
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: #909090;
+    border: 1px solid #909090;
+    border-radius: 4px;
+}
+
+.opis{
+    width: 33%;
+    padding-bottom: 30px;
+}
+
+.opisanie_big{
+    font-family: 'Gol';
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+}
+
+.buttons{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.buttons img{
+    height: 16px;
+}
+
+.button_blue{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+    box-shadow: 0 4px 15px 0 #5d84c2;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.buttons .opisanie_big{
+    padding-left: 10px;
+}
+
+.button_grey{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #284068, #52576d, #636566);
+    /* box-shadow: 0 4px 15px 0 #738197; */
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.button_grey2{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #284068, #52576d, #636566);
+    /* box-shadow: 0 4px 15px 0 #738197; */
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.block_card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 40px;
+}
+
+.block_card .zagolovok h2{
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 25%;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.card .opisanie_big{
+    padding: 5px 0px;
+}
+
+.container_img2{
+    height: 600px;
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.container_img2 .button_blue{
+    width: 50%;
+}
+
+.section_grey{
+    background-color: #1f1f1f;
+
+}
+
+.block_tv{
+    display: flex;
+    padding-top: 100px;
+}
+
+.block_tv .info{
+    padding-top: 0;
+}
+
+.block_tv .zagolovok{
+    width: 100%;
+}
+
+.block_tv .opis{
+    width: 80%;
+}
+
+.people{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_podpiska{
+    width: 100%;
+    display: flex;
+    padding: 100px 0px;
+}
+
+.block_podpiska .info{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-top: 0;
+}
+
+.block_podpiska .opisanie_big{
+    width: 70%;
+}
+
+.block_podpiska .people{
+    width: 70%;
+}
+
+.block_podpiska .zagolovok{
+    width: 100%;
+}
+
+.block_podpiska .people h2{
+    color: #6fb1fc;
+}
+
+.block_podpiska .opis{
+    width: 100%;
+}
+
+.block_p1{
+    padding-right: 20px;
+}
+
+.card_podpiska{
+    display: block;
+    background: linear-gradient(to right, #284068, #52576d, #636566);
+    padding: 20px 45px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.name, .tel, .mail{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.print .opisanie_big{
+    padding-bottom: 20px;
+}
+
+input{
+    border: 1px solid grey;
+    background-color: #141414;
+    padding: 20px 230px;
+    border-radius:10px;
+}
