@@ -176,6 +176,13 @@ a{
     box-shadow: 0 4px 15px 0 #5d84c2;
     border-radius: 10px;
     padding: 10px 20px;
+    transition: 0.2s;
+}
+
+.button_blue:hover{
+    background-image: linear-gradient(to right, #012969, #2d41a1, #375b80);
+    box-shadow: 0 4px 15px 0 #313e52;
+    transition: 0.2s;
 }
 
 .buttons .opisanie_big{
@@ -188,9 +195,16 @@ a{
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right, #284068, #52576d, #636566);
-    /* box-shadow: 0 4px 15px 0 #738197; */
+     box-shadow: 0 4px 15px 0 #738197;
     border-radius: 10px;
     padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.button_grey:hover{
+    background-image: linear-gradient(to right, #18263d, #343846, #3f3f41);
+    box-shadow: 0 4px 15px 0 #1c222d;
+    transition: 0.5s;
 }
 
 .button_grey2{
@@ -199,9 +213,16 @@ a{
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right, #284068, #52576d, #636566);
-    /* box-shadow: 0 4px 15px 0 #738197; */
+     box-shadow: 0 4px 15px 0 #738197;
     border-radius: 10px;
     padding: 5px 20px;
+    transition: 0.5s;
+}
+
+.button_grey2:hover{
+    background-image: linear-gradient(to right, #18263d, #343846, #3f3f41);
+    box-shadow: 0 4px 15px 0 #1c222d;
+    transition: 0.5s;
 }
 
 .block_card{
@@ -226,6 +247,11 @@ a{
 
 .card{
     width: 25%;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 .card img{
@@ -312,12 +338,27 @@ a{
     padding-right: 20px;
 }
 
+.block_tv .people h2{
+    background-image: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .2s;
+}
+
 .card_podpiska{
     display: block;
     background: linear-gradient(to right, #284068, #52576d, #636566);
+    box-shadow: 0 4px 15px 0 #46556c;
     padding: 20px 45px;
     margin-bottom: 40px;
     border-radius: 15px;
+    transition: 1s;
+}
+
+.card_podpiska:hover{
+    background: linear-gradient(to right, #1b2d48, #363948, #353636);
+    box-shadow: 0 4px 15px 0 #1c222d;
+    transition: 0.2s;
 }
 
 .name, .tel, .mail{
@@ -331,6 +372,7 @@ a{
 }
 
 input{
+    color: white;
     border: 1px solid grey;
     background-color: #141414;
     padding: 20px 230px;
