@@ -273,6 +273,126 @@ a{
     width: 50%;
 }
 
+.block_film{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.part1{
+    width: 100%;
+    display: flex;
+}
+
+.part1 .info{
+    width: 100%;
+    padding: 0;
+}
+
+.part1 .button_orange{
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #ff512f, #f09819);
+    box-shadow: 0 4px 15px 0 #e25c41;
+    border-radius: 40px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+
+.button_orange p{
+    font-family: 'Gol';
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+}
+
+.button_orange:hover{
+    background-image: linear-gradient(to right, #ad3b24, #996111);
+    box-shadow: 0 4px 15px 0 #963d2b;
+    transition: 0.2s;
+}
+
+.part1 .reiting{
+    width: 50%;
+}
+
+.part1 .opis{
+    width: 50%;
+}
+
+.part1 .buttons{
+    width: 65%;
+}
+
+.photo_film{
+    width: 50%;
+}
+
+.photo_film img{
+    border-radius: 20px;
+}
+
+.price_film{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.part2{
+    width: 100%;
+    display: flex;
+}
+
+.block_opisanie{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bold p{
+    font-weight: 700;
+    padding-bottom: 2px;
+    transition: 0.2s;
+    border-bottom: 4px solid rgba(255, 255, 255, 0);
+}
+
+.bold p:hover{
+    border-bottom: 4px solid #0052d4;
+    transition: 0.2s;
+}
+
+.block_opisanie .opis{
+    width: 70%;
+}
+
+.photos{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo_p{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo_p img{
+    border-radius: 15px;
+}
+
+.photo1, .photo3{
+    padding-bottom: 20px;
+}
+
+.three_form{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
 .section_grey{
     background-color: #1f1f1f;
 
@@ -315,6 +435,10 @@ a{
 }
 
 .block_podpiska .opisanie_big{
+    width: 50%;
+}
+
+.card_podpiska .opisanie_big{
     width: 70%;
 }
 
@@ -335,7 +459,7 @@ a{
 }
 
 .block_p1{
-    padding-right: 20px;
+    padding-right: 35px;
 }
 
 .block_tv .people h2{
@@ -371,6 +495,10 @@ a{
     padding-bottom: 20px;
 }
 
+.form{
+    margin-right: 130px;
+}
+
 input{
     color: white;
     border: 1px solid grey;
@@ -378,3 +506,64 @@ input{
     padding: 20px 230px;
     border-radius:10px;
 }
+
+.tarif {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.tarif label{
+    font-family: 'Gol';
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+}
+
+.soglasie{
+    font-family: 'Gol';
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.big_block{
+    display: flex;
+}
+
+.form .button_blue{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section_grey2{
+    background-color: #1f1f1f;
+}
+
+.section_grey2 .container_big{
+    padding-bottom: 0;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.block{
+    width: 100%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.icons_footer{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
