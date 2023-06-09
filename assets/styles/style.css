@@ -737,6 +737,14 @@ input{
         padding: 20px 214px;
     }
 
+    .form{
+        margin: 0;
+    }
+
+    .form .button_blue{
+        width: 95%;
+    }
+
     .form .button_blue{
         width: 73%;
     }
